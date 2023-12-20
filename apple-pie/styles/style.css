@@ -20,5 +20,23 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 950px;
+  /* position: relative; */
+  color: aliceblue;
+  display: flex;
+  font-size: 55px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+}
+
+.paragraph {
+  margin: 50px 200px;
+  font-size: 26px;
+  line-height: 36px;
+}
