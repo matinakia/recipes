@@ -25,7 +25,7 @@ body {
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 950px;
+  height: 750px;
   /* position: relative; */
   color: aliceblue;
   display: flex;
@@ -39,4 +39,25 @@ body {
   margin: 50px 200px;
   font-size: 26px;
   line-height: 36px;
+  display: flex;
+  justify-content: center;
 }
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.lists {
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 200px;
+  font-size: 20px;
+  
+}
+
+.ingredients-ul li{
+  list-style-type: "-";
+}
+
